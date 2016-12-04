@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="org-aerogear-hello" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>HelloNative</name>
+    <js-module name="HelloNative" src="www/HelloNative.js">
+        <clobbers target="HelloNative" />
+    </js-module>
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="HelloNative">
+                <param name="android-package"
+                       value="org.aerogear.plugin.HelloNative"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/org/aerogear/plugin/HelloNative.java"
+                     target-dir="src/org/aerogear/plugin" />
+    </platform>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="HelloNative">
+                <param name="ios-package" value="HelloNative" />
+            </feature>
+        </config-file>
+        <source-file src="src/ios/HelloNative.swift" />
+    </platform>
+    <dependency id="cordova-plugin-add-swift-support" version="1.6.0"/>
+</plugin>

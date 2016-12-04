@@ -1,0 +1,7 @@
+# IntelliJ IDEA files
+*.iml
+.idea
+
+# Cordova generated
+MyApp/platforms
+MyApp/plugins
