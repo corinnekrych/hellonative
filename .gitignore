@@ -5,3 +5,6 @@
 # Cordova generated
 MyApp/platforms
 MyApp/plugins
+
+# Mac files
+.DS_Store

@@ -1,7 +1,7 @@
 Writing a Swift 3.0 Cordova plugin
 ==================================
 
-Demo sample written following [Modus Create's Blog](http://moduscreate.com/writing-a-cordova-plugin-in-swift-for-ios/). this is a simple `HelloWorld` example. The plugin display in a toast/alert view a `Hello YourName` for 3 seconds.
+Demo sample written following [Modus Create's Blog](http://moduscreate.com/writing-a-cordova-plugin-in-swift-for-ios/). this is a simple `HelloWorld` example. The plugin displays in a toast/alert view a `Hello YourName` for 3 seconds.
 
 Thanks @simon_prickett for the great article.
 
